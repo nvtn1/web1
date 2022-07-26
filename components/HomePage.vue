@@ -21,7 +21,7 @@
       </div>
       <div class="self-end px-4 pl-12">
         <div class="relative mt-10 w-1/2 mx-auto lg:mt-0 lg:right">
-          <img src="~/assets/Profile.png" class="relative z-10 mx-auto" />
+          <img src="~/assets/Profile.png" class="z-10 relative mx-auto" />
           <span class="absolute bottom-0 right-10 sm:scale-50 md:scale-100">
             <svg
               width="250"
@@ -71,6 +71,6 @@
 
 <script>
 export default {
-  setup() {},
+  name: 'HomePage',
 }
 </script>

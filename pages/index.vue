@@ -1,7 +1,12 @@
 <template>
   <!-- Menu Section -->
   <div id="Menu" class="min-h-screen">
-    <header class="h-[100px] p-[20px] bg-zinc-900">
+    <header
+      class="h-[100px] p-[20px] w-full bg-zinc-900 fixed z-20"
+      :class="{
+        'opacity-90': isScrolled,
+      }"
+    >
       <div class="flex flex-wrap h-full">
         <nav
           class="navbar w-full px-12 flex justify-between relative items-center h-full"
@@ -23,7 +28,7 @@
               About
             </a>
             <a
-              href="#"
+              href="#project"
               class="text-white font-mono py-3 px-1 m-2 font-extralight rounded-lg hover:text-violet-700 transition duration-300 ease-in-out"
             >
               Project
@@ -38,9 +43,10 @@
         </nav>
       </div>
     </header>
-    <div class="component lg:w-[1220px]">
+    <div class="component lg:w-full">
       <HomePage />
       <AboutPage />
+      <ProjectPage />
     </div>
   </div>
   <!-- End of Menu Section -->
@@ -49,12 +55,27 @@
 <script>
 export default {
   name: 'IndexPage',
+  data() {
+    return {
+      isScrolled: false,
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.onScrollHandler)
+  },
+  methods: {
+    onScrollHandler() {
+      if (document.documentElement.scrollTop > 0) {
+        this.isScrolled = true
+      } else {
+        this.isScrolled = false
+      }
+    },
+  },
 }
 </script>
 
 <style scoped></style>
-
-// opacity:10 scroll:opacity-100
 
 <!-- <button
           id="hamburger"

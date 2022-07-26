@@ -7,7 +7,7 @@
           Tentang Saya
         </h4>
         <h2 class="font-bold text-2xl text-yell mb-3">
-          Website Portofolio Mengenai Saya
+          Website Portofolio Saya
         </h2>
         <p class="text-primary font-medium text-base max-w-xl">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
@@ -15,7 +15,7 @@
           expedita impedit.
         </p>
       </div>
-      <div class="w-full px-2 pt-10 pl-14 lg:w-1/2">
+      <div class="w-full px-2 pt-10 pl-8 lg:w-1/2">
         <h3 class="text-v1o font-bold text-2xl mb-3">Mari Berteman!</h3>
         <p class="text-primary font-medium text-base mb-6">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nobis
@@ -43,7 +43,7 @@
           ></a>
           <!-- youtube -->
           <a
-            href="https://www.youtube.com/channel/UCzkDpS2NejVkyTss05zaDQ"
+            href="http://www.youtube.com/channel/UCzkDpS2Nej-VkyTss05zaDQ"
             target="blank"
             class="w-10 h-10 mr-3 rounded-full flex justify-center items-center opacity-50 hover:opacity-100 hover:border-v1o hover:bg-v1o"
           >
