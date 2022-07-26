@@ -1,24 +1,25 @@
 <template>
+  <!-- hero section start -->
   <section id="home" class="pt-48">
-    <div class="container lg:flex lg:max-w-full">
+    <div class="lg:flex lg:max-w-full">
       <div class="w-full self-center px-4 lg:w-1/2">
         <h2 class="text-4xl font-serif text-primary">Hello!</h2>
         <p class="text-3xl pt-3 text-primary font-semibold font-mono">
           I'm <strong class="text-3xl text-violet-400">Novantino</strong>
           <span class="block">Donny Wijaya</span>
         </p>
-        <h2 class="font-medium text-lg mb-5 text-primary">Fresh Graduate</h2>
+        <h2 class="font-medium text-lg mb-3 text-primary">Fresh Graduate</h2>
         <p class="font-medium mb-5 text-primary leading-relaxed">
           Mudah dan Menyenangkan ya kan ?!
-          <span class="font-bold text-lg text-yellow-400">YNTKTS</span>
+          <span class="font-bold text-lg text-yell">YNTKTS</span>
         </p>
         <a
           href="#"
-          class="bg-violet-700 text-base font-mono font-extralight text-white rounded-full px-2 py-4 hover:shadow-lg hover:bg-violet-600 transition duration-300 ease-in-out"
-          >Hubungi Saya</a
+          class="bg-violet-700 font-medium text-white rounded-full px-2 py-4 hover:shadow-lg hover:bg-violet-600 transition duration-300 ease-in-out"
+          >Contact Me</a
         >
       </div>
-      <div class="self-end px-4">
+      <div class="self-end px-4 pl-12">
         <div class="relative mt-10 w-1/2 mx-auto lg:mt-0 lg:right">
           <img src="~/assets/Profile.png" class="relative z-10 mx-auto" />
           <span class="absolute bottom-0 right-10 sm:scale-50 md:scale-100">
@@ -66,8 +67,6 @@
     </div>
   </section>
   <!-- end of hero section -->
-  <!-- about section start -->
-  <!-- about section end -->
 </template>
 
 <script>

@@ -14,10 +14,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#f8fafc',
+        primary: '#d4d4d8',
+        yell: '#fbbf24',
+        v1o: '#8b5cf6',
       },
       screens: {
         '2xl': '1320px',
+        sm: '480px',
       },
     },
   },
