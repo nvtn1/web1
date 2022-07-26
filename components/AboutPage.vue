@@ -43,7 +43,7 @@
           ></a>
           <!-- youtube -->
           <a
-            href="https://www.youtube.com/channel/UCzkDpS2NejVkyTss0zaDQ"
+            href="https://www.youtube.com/channel/UCzkDpS2NejVkyTss05zaDQ"
             target="blank"
             class="w-10 h-10 mr-3 rounded-full flex justify-center items-center opacity-50 hover:opacity-100 hover:border-v1o hover:bg-v1o"
           >

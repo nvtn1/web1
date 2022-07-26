@@ -6,12 +6,12 @@
         <nav
           class="navbar w-full px-12 flex justify-between relative items-center h-full"
         >
-          <a href="#home" class="text-v1o font-mono font-bold text-3xl">
+          <a href="#Menu" class="text-v1o font-mono font-bold text-3xl">
             <span class="text-yell">ND</span>WEB
           </a>
           <div>
             <a
-              href="#home"
+              href="#Menu"
               class="text-white font-mono font-extralight py-3 px-1 m-2 rounded-lg hover:text-violet-700 transition duration-300 ease-in-out"
             >
               Home
@@ -55,3 +55,14 @@ export default {
 <style scoped></style>
 
 // opacity:10 scroll:opacity-100
+
+<!-- <button
+          id="hamburger"
+          name="hamburger"
+          type="button"
+          class="block absolute right-4"
+        >
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button> -->
