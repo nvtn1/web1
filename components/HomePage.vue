@@ -14,7 +14,7 @@
           <span class="font-bold text-lg text-yell">YNTKTS</span>
         </p>
         <a
-          href="#"
+          href="#contact"
           class="bg-violet-700 font-medium text-white rounded-full px-2 py-4 hover:shadow-lg hover:bg-violet-600 transition duration-300 ease-in-out"
           >Contact Me</a
         >

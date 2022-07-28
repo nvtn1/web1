@@ -22,7 +22,7 @@
           excepturi ad quasi consectetur sunt atque! Tempora aliquam magnam
           rerum.
         </p>
-        <div class="flex items-center">
+        <div id="contact" class="flex items-center">
           <!-- instagram -->
           <a
             href="https://www.instagram.com/novantino_"
@@ -79,10 +79,9 @@
               /></svg
           ></a>
           <!-- other -->
-          <a
-            href="#"
-            target="blank"
+          <button
             class="w-10 h-10 mr-3 rounded-full flex justify-center items-center opacity-80 hover:opacity-100 hover:border-yell hover:bg-yell"
+            @click="popupon = true"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +95,31 @@
                 d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
               />
             </svg>
-          </a>
+          </button>
+          <div
+            v-if="popupon"
+            class="flex items-center justify-center fixed inset-0 bg-black/50 z-10"
+          >
+            <div
+              class="container w-[280px] h-[120px] opacity-90 border border-zinc-800 bg-zinc-900 rounded-xl shadow-xl"
+            >
+              <div class="p-18 flex justify-end">
+                <div class="w-5 h-5 rounded-full">
+                  <span
+                    class="text-4xl m-auto text-v1o hover:text-violet-400 transition duration-500 ease-in-out cursor-pointer"
+                    @click="popupon = false"
+                  >
+                    &times;
+                  </span>
+                </div>
+              </div>
+              <div class="text-primary">
+                <h2 class="font-bold">My Contact</h2>
+                <h4 class="font-base pt-2">No.Handphone : 083151859420</h4>
+                <h4 class="font-base pt-2">Email : novantinodw@gmail.com</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -107,5 +130,10 @@
 <script>
 export default {
   name: 'AboutPage',
+  data() {
+    return {
+      popupon: false,
+    }
+  },
 }
 </script>

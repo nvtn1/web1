@@ -6,9 +6,6 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.navbar fixed {
-  @apply fixed bg-red-400;
-}
 /* .hamburger-line {
   @apply w-[30px] h-[2px] my-2 block bg-white;
 }
