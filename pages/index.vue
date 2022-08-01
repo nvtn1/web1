@@ -1,6 +1,6 @@
 <template>
-  <!-- Menu Section -->
-  <div id="Menu" class="min-h-screen">
+  <!-- Main Section -->
+  <div id="Main" class="min-h-screen">
     <header
       class="h-[100px] p-[20px] w-full bg-zinc-900 fixed z-20"
       :class="{
@@ -11,12 +11,12 @@
         <nav
           class="navbar w-full px-12 flex justify-between relative items-center h-full"
         >
-          <a href="#Menu" class="text-v1o font-mono font-bold text-3xl">
+          <a href="#Main" class="text-v1o font-mono font-bold text-3xl">
             <span class="text-yell">ND</span>WEB
           </a>
           <div>
             <a
-              href="#Menu"
+              href="#Main"
               class="text-white font-mono font-extralight py-3 px-1 m-2 rounded-lg hover:text-violet-700 transition duration-300 ease-in-out"
             >
               Home
@@ -34,7 +34,7 @@
               Project
             </a>
             <a
-              href="#contact"
+              href="#about"
               class="text-white font-mono py-3 px-1 m-2 font-extralight rounded-lg hover:text-violet-700 transition duration-300 ease-in-out"
             >
               Contact
@@ -48,8 +48,18 @@
       <AboutPage />
       <ProjectPage />
     </div>
+    <!-- End of Main Section -->
+    <footer class="h-[200px] bg-zinc-900 pt-12 pb-12">
+      <div class="flex flex-wrap">
+        <div class="w-full px-4 mb-12 text-neutral-300 font-medium">
+          <h2 class="font-bold text-xl mb-2">Hubungi saya</h2>
+          <p>novantinodw@gmial.com</p>
+          <p>jl.Daarat Nipah III No.181</p>
+          <p>Semarang</p>
+        </div>
+      </div>
+    </footer>
   </div>
-  <!-- End of Menu Section -->
 </template>
 
 <script>

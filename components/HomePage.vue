@@ -1,6 +1,6 @@
 <template>
   <!-- hero section start -->
-  <section id="home" class="pt-48">
+  <section id="home" class="pt-48 mb-5">
     <div class="lg:flex lg:max-w-full">
       <div class="w-full self-center px-4 lg:w-1/2">
         <h2 class="text-4xl font-serif text-primary">Hello!</h2>
@@ -14,7 +14,7 @@
           <span class="font-bold text-lg text-yell">YNTKTS</span>
         </p>
         <a
-          href="#contact"
+          href="#about"
           class="bg-violet-700 font-medium text-white rounded-full px-2 py-4 hover:shadow-lg hover:bg-violet-600 transition duration-300 ease-in-out"
           >Contact Me</a
         >
@@ -31,8 +31,8 @@
             >
               <path
                 fill="#fbbf24"
-                d="M44.3,24.6C31.2,48.3,-23.7,46.8,-38.1,22.4C-52.4,-2,-26.2,-49.3,1.2,-48.6C28.7,-47.9,57.4,0.9,44.3,24.6Z"
-                transform="translate(100 100) scale(2,2)"
+                d="M69.4,-39.3C82.7,-17,81.3,14.6,67.3,37.4C53.3,60.2,26.6,74.3,0,74.3C-26.7,74.4,-53.4,60.3,-66.8,37.9C-80.1,15.5,-80,-15.4,-66.7,-37.7C-53.3,-60,-26.7,-73.8,0.7,-74.2C28,-74.6,56.1,-61.6,69.4,-39.3Z"
+                transform="translate(100 100) scale(1,1)"
               />
             </svg>
             <!-- <svg
@@ -57,8 +57,8 @@
             >
               <path
                 fill="#6d28d9"
-                d="M44.3,24.6C31.2,48.3,-23.7,46.8,-38.1,22.4C-52.4,-2,-26.2,-49.3,1.2,-48.6C28.7,-47.9,57.4,0.9,44.3,24.6Z"
-                transform="translate(100 100) scale(2,2)"
+                d="M69.4,-39.3C82.7,-17,81.3,14.6,67.3,37.4C53.3,60.2,26.6,74.3,0,74.3C-26.7,74.4,-53.4,60.3,-66.8,37.9C-80.1,15.5,-80,-15.4,-66.7,-37.7C-53.3,-60,-26.7,-73.8,0.7,-74.2C28,-74.6,56.1,-61.6,69.4,-39.3Z"
+                transform="translate(100 100) scale(1,1)"
               />
             </svg>
           </span>

@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div id="main" class="min-h-screen">
+    <header class="bg-neutral-300"></header>
+  </div>
 </template>
 
 <script>
